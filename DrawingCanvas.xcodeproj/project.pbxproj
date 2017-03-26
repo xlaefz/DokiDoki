@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3871E23BC87DA4412C05F713 /* Pods_DrawingCanvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECAB8F8CBDDDF77D76FCC1C /* Pods_DrawingCanvas.framework */; };
+		881DF5BD1E873C990040D5D7 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5BC1E873C990040D5D7 /* AnimationViewController.swift */; };
+		881DF5BF1E873E190040D5D7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5BE1E873E190040D5D7 /* OnboardingView.swift */; };
+		881DF5C11E8742DA0040D5D7 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */; };
+		881DF5C21E8742DA0040D5D7 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F34A62271E6A5FAB00A781AD /* PathObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62261E6A5FAB00A781AD /* PathObserver.swift */; };
+		F34A62291E6A62B200A781AD /* PathGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62281E6A62B200A781AD /* PathGroup.swift */; };
+		F34A622B1E6A64BC00A781AD /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A622A1E6A64BC00A781AD /* Drawable.swift */; };
+		F34A622D1E6A697400A781AD /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A622C1E6A697400A781AD /* Path.swift */; };
+		F34A622F1E6A845500A781AD /* Movable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A622E1E6A845500A781AD /* Movable.swift */; };
+		F34A62311E6AA2C800A781AD /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62301E6AA2C800A781AD /* DrawingViewController.swift */; };
+		F34A62331E6AA78400A781AD /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62321E6AA78400A781AD /* Recorder.swift */; };
+		F34A62351E6AB01800A781AD /* EveryoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62341E6AB01800A781AD /* EveryoneViewController.swift */; };
+		F34A62381E6AB13400A781AD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62361E6AB13400A781AD /* Book.swift */; };
+		F34A62391E6AB13400A781AD /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62371E6AB13400A781AD /* BookManager.swift */; };
+		F39850151E6A4DE700B22A1A /* HandlePathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39850141E6A4DE700B22A1A /* HandlePathView.swift */; };
+		F3C148E71E69528F00719E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C148E61E69528F00719E6C /* AppDelegate.swift */; };
+		F3C148E91E69528F00719E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C148E81E69528F00719E6C /* ViewController.swift */; };
+		F3C148EC1E69528F00719E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C148EA1E69528F00719E6C /* Main.storyboard */; };
+		F3C148EE1E69528F00719E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C148ED1E69528F00719E6C /* Assets.xcassets */; };
+		F3C148F11E69528F00719E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C148EF1E69528F00719E6C /* LaunchScreen.storyboard */; };
+		F3C148F91E69533E00719E6C /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C148F81E69533E00719E6C /* CanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		881DF5C31E8742DA0040D5D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				881DF5C21E8742DA0040D5D7 /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2537BFD3A01A105E96E971B4 /* Pods-DrawingCanvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingCanvas.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingCanvas/Pods-DrawingCanvas.release.xcconfig"; sourceTree = "<group>"; };
+		3DE8904E904D34AD3AE8514E /* Pods-DrawingCanvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingCanvas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingCanvas/Pods-DrawingCanvas.debug.xcconfig"; sourceTree = "<group>"; };
+		881DF5BC1E873C990040D5D7 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		881DF5BE1E873E190040D5D7 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaperOnboarding.framework; sourceTree = "<group>"; };
+		8ECAB8F8CBDDDF77D76FCC1C /* Pods_DrawingCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawingCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A62261E6A5FAB00A781AD /* PathObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathObserver.swift; sourceTree = "<group>"; };
+		F34A62281E6A62B200A781AD /* PathGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathGroup.swift; sourceTree = "<group>"; };
+		F34A622A1E6A64BC00A781AD /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		F34A622C1E6A697400A781AD /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		F34A622E1E6A845500A781AD /* Movable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movable.swift; sourceTree = "<group>"; };
+		F34A62301E6AA2C800A781AD /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		F34A62321E6AA78400A781AD /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		F34A62341E6AB01800A781AD /* EveryoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EveryoneViewController.swift; sourceTree = "<group>"; };
+		F34A62361E6AB13400A781AD /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F34A62371E6AB13400A781AD /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		F39850141E6A4DE700B22A1A /* HandlePathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlePathView.swift; sourceTree = "<group>"; };
+		F3C148E31E69528F00719E6C /* DrawingCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C148E61E69528F00719E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C148E81E69528F00719E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3C148EB1E69528F00719E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C148ED1E69528F00719E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C148F01E69528F00719E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C148F21E69528F00719E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C148F81E69533E00719E6C /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C148E01E69528F00719E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881DF5C11E8742DA0040D5D7 /* PaperOnboarding.framework in Frameworks */,
+				3871E23BC87DA4412C05F713 /* Pods_DrawingCanvas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F701BC6BD7A951D1C0B814B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8904E904D34AD3AE8514E /* Pods-DrawingCanvas.debug.xcconfig */,
+				2537BFD3A01A105E96E971B4 /* Pods-DrawingCanvas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88F006371E8648CB00D839D7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3C148E81E69528F00719E6C /* ViewController.swift */,
+				F34A62301E6AA2C800A781AD /* DrawingViewController.swift */,
+				F34A62341E6AB01800A781AD /* EveryoneViewController.swift */,
+				881DF5BC1E873C990040D5D7 /* AnimationViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		88F006381E8648D700D839D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3C148F81E69533E00719E6C /* CanvasView.swift */,
+				F39850141E6A4DE700B22A1A /* HandlePathView.swift */,
+				881DF5BE1E873E190040D5D7 /* OnboardingView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F20AB864D7D92DE57D591EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECAB8F8CBDDDF77D76FCC1C /* Pods_DrawingCanvas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C148DA1E69528F00719E6C = {
+			isa = PBXGroup;
+			children = (
+				881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */,
+				F3C148E51E69528F00719E6C /* app */,
+				F3C148E41E69528F00719E6C /* Products */,
+				3F701BC6BD7A951D1C0B814B /* Pods */,
+				F20AB864D7D92DE57D591EF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C148E41E69528F00719E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C148E31E69528F00719E6C /* DrawingCanvas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C148E51E69528F00719E6C /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F3C148E61E69528F00719E6C /* AppDelegate.swift */,
+				88F006371E8648CB00D839D7 /* View Controllers */,
+				88F006381E8648D700D839D7 /* Views */,
+				F34A62261E6A5FAB00A781AD /* PathObserver.swift */,
+				F34A62281E6A62B200A781AD /* PathGroup.swift */,
+				F34A622A1E6A64BC00A781AD /* Drawable.swift */,
+				F34A622E1E6A845500A781AD /* Movable.swift */,
+				F34A622C1E6A697400A781AD /* Path.swift */,
+				F34A62321E6AA78400A781AD /* Recorder.swift */,
+				F34A62361E6AB13400A781AD /* Book.swift */,
+				F34A62371E6AB13400A781AD /* BookManager.swift */,
+				F3C148EA1E69528F00719E6C /* Main.storyboard */,
+				F3C148ED1E69528F00719E6C /* Assets.xcassets */,
+				F3C148EF1E69528F00719E6C /* LaunchScreen.storyboard */,
+				F3C148F21E69528F00719E6C /* Info.plist */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C148E21E69528F00719E6C /* DrawingCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C148F51E69528F00719E6C /* Build configuration list for PBXNativeTarget "DrawingCanvas" */;
+			buildPhases = (
+				2F4303E69207C2A5C5E15A33 /* [CP] Check Pods Manifest.lock */,
+				F3C148DF1E69528F00719E6C /* Sources */,
+				F3C148E01E69528F00719E6C /* Frameworks */,
+				F3C148E11E69528F00719E6C /* Resources */,
+				E069188D43F72C4B45D668BF /* [CP] Embed Pods Frameworks */,
+				EF1D6986244CF49ECAC3BCB0 /* [CP] Copy Pods Resources */,
+				881DF5C31E8742DA0040D5D7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingCanvas;
+			productName = DrawingCanvas;
+			productReference = F3C148E31E69528F00719E6C /* DrawingCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C148DB1E69528F00719E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tokoro;
+				TargetAttributes = {
+					F3C148E21E69528F00719E6C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V5WFPWBDLH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3C148DE1E69528F00719E6C /* Build configuration list for PBXProject "DrawingCanvas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C148DA1E69528F00719E6C;
+			productRefGroup = F3C148E41E69528F00719E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C148E21E69528F00719E6C /* DrawingCanvas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C148E11E69528F00719E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C148F11E69528F00719E6C /* LaunchScreen.storyboard in Resources */,
+				F3C148EE1E69528F00719E6C /* Assets.xcassets in Resources */,
+				F3C148EC1E69528F00719E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F4303E69207C2A5C5E15A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E069188D43F72C4B45D668BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingCanvas/Pods-DrawingCanvas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1D6986244CF49ECAC3BCB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingCanvas/Pods-DrawingCanvas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C148DF1E69528F00719E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A62291E6A62B200A781AD /* PathGroup.swift in Sources */,
+				F3C148E91E69528F00719E6C /* ViewController.swift in Sources */,
+				F34A622D1E6A697400A781AD /* Path.swift in Sources */,
+				F34A62331E6AA78400A781AD /* Recorder.swift in Sources */,
+				F34A62391E6AB13400A781AD /* BookManager.swift in Sources */,
+				F34A622F1E6A845500A781AD /* Movable.swift in Sources */,
+				F3C148E71E69528F00719E6C /* AppDelegate.swift in Sources */,
+				F34A622B1E6A64BC00A781AD /* Drawable.swift in Sources */,
+				F3C148F91E69533E00719E6C /* CanvasView.swift in Sources */,
+				F34A62271E6A5FAB00A781AD /* PathObserver.swift in Sources */,
+				F39850151E6A4DE700B22A1A /* HandlePathView.swift in Sources */,
+				F34A62311E6AA2C800A781AD /* DrawingViewController.swift in Sources */,
+				881DF5BD1E873C990040D5D7 /* AnimationViewController.swift in Sources */,
+				881DF5BF1E873E190040D5D7 /* OnboardingView.swift in Sources */,
+				F34A62381E6AB13400A781AD /* Book.swift in Sources */,
+				F34A62351E6AB01800A781AD /* EveryoneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3C148EA1E69528F00719E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C148EB1E69528F00719E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C148EF1E69528F00719E6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C148F01E69528F00719E6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C148F31E69528F00719E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C148F41E69528F00719E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C148F61E69528F00719E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE8904E904D34AD3AE8514E /* Pods-DrawingCanvas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5WFPWBDLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jason.DokiDoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3C148F71E69528F00719E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2537BFD3A01A105E96E971B4 /* Pods-DrawingCanvas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5WFPWBDLH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jason.DokiDoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C148DE1E69528F00719E6C /* Build configuration list for PBXProject "DrawingCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C148F31E69528F00719E6C /* Debug */,
+				F3C148F41E69528F00719E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C148F51E69528F00719E6C /* Build configuration list for PBXNativeTarget "DrawingCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C148F61E69528F00719E6C /* Debug */,
+				F3C148F71E69528F00719E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C148DB1E69528F00719E6C /* Project object */;
+}
