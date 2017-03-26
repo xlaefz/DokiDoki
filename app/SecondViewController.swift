@@ -3,7 +3,7 @@
 //  DrawingCanvas
 //
 //  Created by Jason Zheng on 3/25/17.
-//  Copyright © 2017 tokoro. All rights reserved.
+//  Copyright © 2017 DokiDoki. All rights reserved.
 //
 
 import UIKit
