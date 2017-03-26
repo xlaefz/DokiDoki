@@ -12,6 +12,8 @@
 		881DF5BF1E873E190040D5D7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5BE1E873E190040D5D7 /* OnboardingView.swift */; };
 		881DF5C11E8742DA0040D5D7 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */; };
 		881DF5C21E8742DA0040D5D7 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		881DF5C71E874E3A0040D5D7 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5C61E874E3A0040D5D7 /* CircularTransition.swift */; };
+		881DF5C91E8753790040D5D7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DF5C81E8753790040D5D7 /* SecondViewController.swift */; };
 		F34A62271E6A5FAB00A781AD /* PathObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62261E6A5FAB00A781AD /* PathObserver.swift */; };
 		F34A62291E6A62B200A781AD /* PathGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62281E6A62B200A781AD /* PathGroup.swift */; };
 		F34A622B1E6A64BC00A781AD /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A622A1E6A64BC00A781AD /* Drawable.swift */; };
@@ -51,6 +53,8 @@
 		881DF5BC1E873C990040D5D7 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		881DF5BE1E873E190040D5D7 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		881DF5C01E8742DA0040D5D7 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaperOnboarding.framework; sourceTree = "<group>"; };
+		881DF5C61E874E3A0040D5D7 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		881DF5C81E8753790040D5D7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8ECAB8F8CBDDDF77D76FCC1C /* Pods_DrawingCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawingCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34A62261E6A5FAB00A781AD /* PathObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathObserver.swift; sourceTree = "<group>"; };
 		F34A62281E6A62B200A781AD /* PathGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathGroup.swift; sourceTree = "<group>"; };
@@ -95,6 +99,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		881DF5C41E874DF90040D5D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F34A62261E6A5FAB00A781AD /* PathObserver.swift */,
+				F34A62281E6A62B200A781AD /* PathGroup.swift */,
+				F34A622A1E6A64BC00A781AD /* Drawable.swift */,
+				F34A622E1E6A845500A781AD /* Movable.swift */,
+				F34A622C1E6A697400A781AD /* Path.swift */,
+				F34A62321E6AA78400A781AD /* Recorder.swift */,
+				F34A62361E6AB13400A781AD /* Book.swift */,
+				F34A62371E6AB13400A781AD /* BookManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		881DF5C51E874E190040D5D7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				881DF5C61E874E3A0040D5D7 /* CircularTransition.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		88F006371E8648CB00D839D7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +129,7 @@
 				F34A62301E6AA2C800A781AD /* DrawingViewController.swift */,
 				F34A62341E6AB01800A781AD /* EveryoneViewController.swift */,
 				881DF5BC1E873C990040D5D7 /* AnimationViewController.swift */,
+				881DF5C81E8753790040D5D7 /* SecondViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -147,18 +175,12 @@
 			isa = PBXGroup;
 			children = (
 				F3C148E61E69528F00719E6C /* AppDelegate.swift */,
+				881DF5C51E874E190040D5D7 /* Animations */,
 				88F006371E8648CB00D839D7 /* View Controllers */,
 				88F006381E8648D700D839D7 /* Views */,
-				F34A62261E6A5FAB00A781AD /* PathObserver.swift */,
-				F34A62281E6A62B200A781AD /* PathGroup.swift */,
-				F34A622A1E6A64BC00A781AD /* Drawable.swift */,
-				F34A622E1E6A845500A781AD /* Movable.swift */,
-				F34A622C1E6A697400A781AD /* Path.swift */,
-				F34A62321E6AA78400A781AD /* Recorder.swift */,
-				F34A62361E6AB13400A781AD /* Book.swift */,
-				F34A62371E6AB13400A781AD /* BookManager.swift */,
-				F3C148EA1E69528F00719E6C /* Main.storyboard */,
+				881DF5C41E874DF90040D5D7 /* Model */,
 				F3C148ED1E69528F00719E6C /* Assets.xcassets */,
+				F3C148EA1E69528F00719E6C /* Main.storyboard */,
 				F3C148EF1E69528F00719E6C /* LaunchScreen.storyboard */,
 				F3C148F21E69528F00719E6C /* Info.plist */,
 			);
@@ -300,7 +322,9 @@
 				F34A622B1E6A64BC00A781AD /* Drawable.swift in Sources */,
 				F3C148F91E69533E00719E6C /* CanvasView.swift in Sources */,
 				F34A62271E6A5FAB00A781AD /* PathObserver.swift in Sources */,
+				881DF5C71E874E3A0040D5D7 /* CircularTransition.swift in Sources */,
 				F39850151E6A4DE700B22A1A /* HandlePathView.swift in Sources */,
+				881DF5C91E8753790040D5D7 /* SecondViewController.swift in Sources */,
 				F34A62311E6AA2C800A781AD /* DrawingViewController.swift in Sources */,
 				881DF5BD1E873C990040D5D7 /* AnimationViewController.swift in Sources */,
 				881DF5BF1E873E190040D5D7 /* OnboardingView.swift in Sources */,
